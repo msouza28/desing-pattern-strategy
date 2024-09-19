@@ -1,5 +1,8 @@
 package com.github.masouza28.strategy_design_pattern.service;
 
+import com.github.masouza28.strategy_design_pattern.service.strategy.DiscordNotificationStrategy;
+import com.github.masouza28.strategy_design_pattern.service.strategy.InstagramNotificationStrategy;
+import com.github.masouza28.strategy_design_pattern.service.strategy.WhatsAppNotificationStrategy;
 import jakarta.validation.constraints.NotBlank;
 import org.springframework.stereotype.Service;
 
